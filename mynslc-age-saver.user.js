@@ -6,6 +6,7 @@
 // @author       Fawresin
 // @match        https://cannabis.mynslc.com/skins/Cannabis/pages/VerifyAge.aspx
 // @grant        none
+// @license      MIT
 // @run-at       document-end
 // ==/UserScript==
 

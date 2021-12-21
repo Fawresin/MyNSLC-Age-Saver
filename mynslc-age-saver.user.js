@@ -20,7 +20,7 @@
 
     /**
      * How long the script should wait for the UI to update after clicking the
-     * verify button..
+     * verify button.
      */
     const ERROR_VISIBILITY_TIMEOUT = 500;
 
@@ -48,7 +48,7 @@
             err = true;
         }
 
-    	let element = document.querySelector(selector);
+    	const element = document.querySelector(selector);
     	if (err && element === null) {
             error('Element "' + selector + '" not found.');
     	}
@@ -72,9 +72,9 @@
             return;
         }
 
-       let dobDay = $('#dobDay').value;
-       let dobMonth = $('#dobMonth').value;
-       let dobYear = $('#dobYear').value;
+       const dobDay = $('#dobDay').value;
+       const dobMonth = $('#dobMonth').value;
+       const dobYear = $('#dobYear').value;
        localStorage.setItem(STORAGE_ITEM_KEY, `${dobDay}-${dobMonth}-${dobYear}`);
     }
 
@@ -82,7 +82,7 @@
      * Main procedure.
      */
     function main() {
-        let dob = localStorage.getItem(STORAGE_ITEM_KEY);
+        const dob = localStorage.getItem(STORAGE_ITEM_KEY);
         if (typeof dob === 'string') {
             // Item exists.
             let dobSplit = dob.split('-');

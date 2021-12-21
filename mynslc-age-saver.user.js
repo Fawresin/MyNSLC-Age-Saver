@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         MyNSLC Age Saver
 // @namespace    https://github.com/Fawresin/MyNSLC-Age-Saver
-// @version      1.0
+// @version      1.0.1
 // @description  Saves date of birth information to bypass the age verification page on the Cannabis MyNSLC site.
 // @author       Fawresin
 // @match        https://cannabis.mynslc.com/skins/Cannabis/pages/VerifyAge.aspx
